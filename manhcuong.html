@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Thép Mạnh Cường</title>
+    <style>
+        
+        ul.no-bullet {
+        list-style-type: none; 
+        padding-left: 0; 
+        }
+
+    ul.no-bullet li {
+        margin-left: 0; 
+        }
+        ul.horizontal-list {
+        display: flex; /* Sử dụng Flexbox để căn chỉnh các mục trên cùng một hàng */
+        padding: 0;
+        }
+
+    ul.horizontal-list li {
+    list-style-type: none; /* Loại bỏ dấu chấm */
+    margin-right: 20px; /* Khoảng cách giữa các mục */
+    }
+        .outer-container {
+    display: flex; /* Sử dụng Flexbox */
+    align-items: center; /* Căn chỉnh theo chiều dọc */
+    justify-content: center; /* Căn chỉnh theo chiều ngang */
+    flex-wrap: wrap; /* Cho phép các phần tử chồng lên nhau khi không đủ không gian */
+    }
+
+    .horizontal-list {
+    display: flex; /* Sử dụng Flexbox */
+    align-items: center; /* Căn chỉnh theo chiều dọc */
+    list-style-type: none; /* Loại bỏ dấu chấm của danh sách */
+    padding: 0; /* Loại bỏ padding mặc định của danh sách */
+    }
+
+.search-container {
+    display: flex; /* Sử dụng Flexbox */
+    align-items: center; /* Căn chỉnh theo chiều dọc */
+    margin-left: 20px; /* Khoảng cách giữa danh sách và ô search */
+}
+/* CSS của icon */
+.product-category i {
+    font-size: 24px; /* Kích thước của icon */
+    margin-right: 8px; /* Khoảng cách giữa icon và tiêu đề */
+}
+
+/* CSS của tiêu đề */
+.product-category h3 {
+    display: inline; /* Hiển thị tiêu đề trên cùng một dòng với icon */
+}
+.main-image {
+            width: 500px; /* Chiều rộng của hình ảnh */
+        }
+
+        .text-below-image {
+    text-align: center; /* Căn giữa đoạn văn bản */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-image {
+    margin-bottom: 20px; /* Khoảng cách giữa hình ảnh và đoạn văn bản */
+}
+
+.title {
+    width: 100%;
+    text-align: right;
+}
+.text {
+    width: 100%;
+}
+
+.table {
+    display: table;
+    width: 100%;
+}
+
+.row {
+    display: table-row;
+}
+
+.cell {
+    display: table-cell;
+    padding: 10px;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.custom-table th,
+.custom-table td {
+    padding: 15px; /* Thêm khoảng cách giữa các ô */
+}
+
+    </style>
+</head>
+<body>
+   <!-- header -->
+   <div>
+    <div>Welcome to our Manh Cuong CO, LTD</div>
+    <div>
+        <h2>MANH CUONG STEEL</h2>
+        <ul class="no-bullet">
+            <li>Địa chỉ: 77 Đường số 1, KDC Bình Trưng, Xã Bình Hưng, Bình Chánh</li>
+            <li>SDT: 0934509710(Hòa)</li>
+            <li>Gmail: satthepmanhcuongphat@gmail.com</li>
+        </ul>
+    </div>
+</div>
+
+<!-- nav (navigation) -->
+<div>
+    <div class="horizontal-list no-bullet">
+        <div>
+            <ul class="horizontal-list no-bullet">
+                <li>TRANG CHỦ</li>
+                <li>GIỚI THIỆU</li>
+                <li>THÉP XÂY DỰNG</li>
+                <li>BÁO GIÁ THÉP</li>
+                <li>VẬT LIỆU XÂY DỰNG</li>
+                <li>LIÊN HỆ</li>
+            </ul>
+        </div>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Nhập từ khóa">
+            <button onclick="searchFunction()">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+    </div>
+</div>
+
+
+<!-- main -->
+<div class="horizontal-list no-bullet">
+    <div>
+        <!-- dmsp -->
+        <div>
+            <div class="horizontal-list no-bullet">
+                <div class="product-category"><i class="fas fa-bars"></i></div>
+                <div><h3>Danh mục sản phẩm</h3></div>
+            </div>
+            <div>
+                <ul class="no-bullet">
+                    <li>THÉP XÂY VIỆT-NHẬT</li>
+                    <li>THÉP VẰN</li>
+                    <li>LƯỚI THÉP</li>
+                    <li>SẢN PHẨM KHÁC</li>
+                    <li>THÉP HỘP</li>
+                    <li>THÉP VUÔNG</li>
+                    <li>THÉP HÌNH</li>
+                    <li>THÉP ỐNG</li>
+                    <li>THÉP CUỘN</li>
+                    <li>THÉP XÂY DỰNG</li>    
+                </ul>
+            </div>
+        </div>
+        <!-- spbc -->
+        <div>
+            <!-- tiêu đề -->
+            <div>
+                <div class="horizontal-list no-bullet">
+                    <div class="product-category"><i class="fas fa-bars"></i></div>
+                    <div><h3>SẢN PHẨM BÁN CHẠY</h3></div>
+                </div>
+            </div>
+            <!-- danh sách sp -->
+            <div>
+                <!-- sp -->
+                <div>
+                    <div>
+                        <img src="image/pomina.png" alt="" width="200">
+                    </div>
+                    <h4>THÉP CUỘN TRƠN POMINA</h4>
+                </div>
+                <div>
+                    <div>
+                        <img src="image/thep_van.png" alt="" width="200">
+                    </div>
+                    <h4>THÉP VẰN MIỀN NAM</h4>
+                </div>
+                <div>
+                    <div>
+                        <img src="image/viet_nhat.png" alt="" width="200">
+                    </div>
+                    <h4>THÉP TẤM VIỆT-NHẬT</h4>
+                </div>
+                <div>
+                    <div>
+                        <img src="image/tam_gan.png " alt="" width="200">
+                    </div>
+                    <h4>THÉP TẤM GÂN MIỀN NAM</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <!-- Hình ảnh chính -->
+        <div class="main-image">
+            <img src="image/anh_main.png" alt="" width="550" height="300">
+        </div>
+    
+        <!-- Tiêu đề -->
+        <div class="title">
+            <h1 style="color: red; text-align: center;">&nbsp;&nbsp;CÔNG TY TNHH TM - DV MẠNH CƯỜNG</h1>
+        </div>
+    
+        <!-- Đoạn văn bản -->
+        <div class="text">
+            <p>
+                Công ty chúng tôi xin gửi lời chào và lời cảm ơn chân thành tới Quý khách hàng đã và đang sử dụng sản phẩm  <span style="color: blue; text-decoration: underline;">Sắt Thép Xây </br> Dựng</span> các loại do công ty phân phối và bán lẻ trong thời gian qua.
+            </br>
+            </br>
+            Với lĩnh vực kinh doanh <span style="color: blue; text-decoration: underline;">Sắt Thép Xây Dựng</span>, và cung cấp với mức giá tốt nhất cho người xây dưng cũng như các công trình </br> xây dựng.
+            </p>
+            
+            <span style="color: red">Công ty chúng tôi cũng đã cung ứng </span> sắt thép xây dựng cao cấp <span style="color: red">cho các công trình nhà ở, các nhà thầu xây dựng với giá</span> tốt </br>
+            hàng đầu thị trường sắt thép hiện nay. 
+        </div>
+    </br>
+        <div class="horizontal-list no-bullet" style="display: flex; justify-content: space-between;">
+            <div>SẮT THÉP XÂY DỰNG</div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div>xem tất cả.</div>
+        </div>
+    </br>
+    
+        <div class="table">
+            <div class="row">
+                <div class="cell">
+                    <!-- Đây là cell 1 -->
+                    <div class="image-container">
+                        <!-- Hình ảnh 1 -->
+                        <img src="image/1.png" alt="Hình ảnh 1" width="200">
+                    </div>
+                </div>
+                <div class="cell">
+                    <!-- Đây là cell 2 -->
+                    <div class="image-container">
+                        <!-- Hình ảnh 2 -->
+                        <img src="image/2.png" alt="Hình ảnh 2" width="200">
+                    </div>
+                </div>
+                <div class="cell">
+                    <!-- Đây là cell 3 -->
+                    <div class="image-container">
+                        <!-- Hình ảnh 3 -->
+                        <img src="image/3.png" alt="Hình ảnh 3" width="200">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="cell">
+                    <!-- Đây là cell 4 -->
+                    <div class="image-container">
+                        <!-- Hình ảnh 4 -->
+                        <img src="image/4.png" alt="Hình ảnh 4" width="200">
+                    </div>
+                </div>
+                <div class="cell">
+                    <!-- Đây là cell 5 -->
+                    <div class="image-container">
+                        <!-- Hình ảnh 5 -->
+                        <img src="image/5.png" alt="Hình ảnh 5" width="200">
+                    </div>
+                </div>
+                <div class="cell">
+                    <!-- Đây là cell 6 -->
+                    <div class="image-container">
+                        <!-- Hình ảnh 6 -->
+                        <img src="image/6.png" alt="Hình ảnh 6" width="200">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+    </div>
+    
+    
+     <!-- Đoạn văn bản -->
+        
+</div>
+
+<footter>
+    <!-- top -->
+            
+    <div>
+        <table border="0" class="custom-table">
+            <tr>
+                <th><h2 class="horizontal-list">
+                    MẠNH CƯỜNG STEEL
+                </h2></th>
+                <th><h2 class="horizontal-list">
+                    SITE MAPS
+                </h2></th>
+                <th><h2 class="horizontal-list">
+                    SẢN PHẨM
+                </h2></th>
+                <th style="font-size: 25px;">FANPAGE</th>
+            </tr>
+            <tr>
+                <td><p style="text-align: justify;">
+                    Chúng tôi, nhà phân phối sắt thép xây dựng Mạnh <br>
+                 Cường hôm nay xin gửi tới khách hàng, quý các công <br>
+                 một số thông tin về sản phẩm sắt thép mà chúng tôi <br>
+                 đã cung cấp.
+             </p>
+             <ul class=" no-bullet">
+                 <li class="horizontal-list">
+                     <icon><i class="fas fa-map-marker-alt"></i></icon>
+                     &nbsp;&nbsp;&nbsp;
+                     <p>Địa chỉ: 77 đường số 1, KDC Bình Hưng,</br>
+                     Xã Bình Hưng, Bình Chánh</p>
+                 </li>
+                 <li class="horizontal-list">
+                     <icon><i class="fas fa-phone-alt"></i></icon>
+                     &nbsp;&nbsp;&nbsp;
+                     <p>Số điện thoại: 0934509710 (Hòa)</p>
+                 </li>
+                 <li class="horizontal-list">
+                     <icon><i class="fas fa-envelope"></i>
+                     </icon>
+                     &nbsp;&nbsp;&nbsp;
+                     <p>Gmail: satthepmanhcuongphat@gmail.com</p>
+                 </li>
+                 <li class="horizontal-list">
+                     <icon><i class="fab fa-twitter"></i>
+                     </icon>
+                     &nbsp;&nbsp;
+                     <icon><i class="fab fa-facebook"></i></icon>
+                     &nbsp;&nbsp;
+                     <icon><i class="fab fa-skype"></i></icon>
+                     &nbsp;&nbsp;
+                     <icon><i class="fab fa-youtube"></i></icon>
+                     &nbsp;&nbsp;
+                     <icon><i class="fab fa-google"></i></icon>
+                 </li>
+             </ul></td>
+               
+                <td> <up>
+                    <li><a href="#">Trang chủ</a></li>
+                    <li><a href="#">Giới thiệu</a></li>
+                    <li><a href="#">Sản phẩm</a></li>
+                    <li><a href="#">Báo giá</a></li>
+                    <li><a href="#">Liên hệ</a></li>
+                </up></td>
+                <td><li>SẮT THÉP XÂY DỰNG MIỀN NAM</li>
+                    <li>SẮT THÉP XÂY DỰNG VIỆT NHẬT</li>
+                    <li>SẮT THÉP XÂY DỰNG POMINA</li>
+                    <li>SẮT THÉP XÂY DỰNG VIỆT ÚC</li></td>
+
+                    <td>
+                        <img src="image/fanpage.png">
+                    </td>
+            </tr>
+           
+        </table>
+    </div>
+    <!-- bottom -->
+    <div>
+       <p> Copyright &copy; 2016 Mạnh Cường Co.,LTD.ALL RIGHT RESERVED</p>
+    </div>
+   
+</footter>
+</body>
+</html>
