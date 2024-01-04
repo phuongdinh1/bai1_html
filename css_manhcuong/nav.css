@@ -1,0 +1,32 @@
+nav {
+    background-color: #222326;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.nav__menu {}
+
+.nav__menu ul {}
+
+.nav__menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 5px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.nav__menu ul li a {
+
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.nav__search {
+    margin-left: 700px;
+    color: white;
+    padding-bottom: 10px;
+}

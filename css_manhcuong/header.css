@@ -1,0 +1,35 @@
+header {}
+
+.header__top {
+    background-color: #3b84b0;
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 10px 60px;
+    
+}
+
+.header__bottom {
+    background-image: url('../image/bg_headerBottom.jpg');
+    font-weight: bold;
+    color: white;
+    padding: 1px 20px;
+    background-size: cover;
+}
+
+.header__bottom h2 {
+    font-size: 35px;
+    padding-left: 35px;
+   
+    
+}
+
+.header__bottom ul {
+    
+}
+
+.header__bottom ul li {
+    list-style: none;
+    padding-top: 1px;
+    
+}
