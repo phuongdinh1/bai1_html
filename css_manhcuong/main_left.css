@@ -1,50 +1,115 @@
 .main__left {
-    
-}
-
-
-.aside__category {
-    
-}
-
-.asideCategory__title {
-    background-color: #3b84b0;
-}
-
-.asideCategoryTitle__icon {
-    color: white;
-}
-
-.asideCategoryTitle__heading {
-    
-}
-
-.asideCategoryTitle__heading h3 {
-    color: white;
-}
-
-.asideCategory__list {}
-
-.asideCategory__list ul {}
-
-.asideCategory__list ul li {}
-
-.asideCategory__list ul li a {}
-
-.aside__bestSeller {}
-
-.asideBestSeller__title {}
-
-.asideBestSellerTitle__icon {}
-
-.asideBestSellerTitle__heading {}
-
-.asideBestSellerTitle__heading h3 {}
-
-.asideBestSeller__list {}
-
-.products {}
-
-.productImage {}
-
-.productImage img {}
+    width: 20%;
+   }
+   
+   
+   .aside__category {
+       padding-top: 10px;
+       width: 75%;
+       
+       margin-left: 20%;
+   }
+   
+   .asideCategory__title {
+       padding: 5px;
+       display: flex;
+       align-items: center;
+       background-color: #3b84b0;
+   
+   }
+   
+   .asideCategoryTitle__icon {
+       margin-right: 10px;
+       color: white;
+   }
+   
+   .asideCategoryTitle__heading {
+       
+   }
+   
+   .asideCategoryTitle__heading h3 {
+       margin: 0;
+       color: white;
+       font-size: 14px;
+       text-transform: uppercase;
+       font-weight: 100;
+   }
+   
+   .asideCategory__list {
+       padding-top: 1px;
+       background-color: #f2f1f1;
+   }
+   
+   .asideCategory__list ul {
+       padding-left: 5px;
+       
+   }
+   
+   .asideCategory__list ul li {
+       list-style: none;
+       line-height: 2;
+   }
+   
+   .asideCategory__list ul li a {
+       text-transform: uppercase;
+       color: black;
+       text-decoration: none;
+       font-size: 13px;
+       font-weight: bolder;
+   }
+   
+   .aside__bestSeller {
+       width: 75%;
+       
+       margin-left: 20%;
+   }
+   
+   .asideBestSeller__title {
+       padding: 5px;
+       display: flex;
+       align-items: center;
+       background-color: #3b84b0;
+   }
+   
+   .asideBestSellerTitle__icon {
+       margin-right: 10px;
+       color: white;
+   }
+   
+   
+   .asideBestSellerTitle__heading {}
+   
+   .asideBestSellerTitle__heading h3 {
+       margin: 0;
+       color: white;
+       font-size: 14px;
+       text-transform: uppercase;
+       font-weight: 100;
+   }
+   
+   .asideBestSeller__list {
+       padding-top: 1px;
+       background-color: #f2f1f1;
+   }
+   
+   .products {
+       
+   }
+   
+   .productImage {
+       padding: 10px;
+       
+   }
+   
+   .productImage img {
+       width: 100%;
+       
+   }
+   
+   .products h4 {
+       font-size: 14px;
+       padding-left: 10px;
+       margin: auto;
+       text-transform: uppercase;
+   }
+   

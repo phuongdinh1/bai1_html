@@ -1,31 +1,95 @@
-.main__right {}
+.main__right {
+    width: 80%;
+    margin-right: 10%;
+}
 
-#slider {}
+#slider {
+    background-image: url('../image/slider.jpg');
+    
+}
+
+#slider img{
+    width: 100%;
+    height: 340px;
+}
+
+
 
 #content {}
 
-#content h1 {}
+#content h1 {
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+}
 
-#content p {}
+#content p {
+    font-size: 25px;
+}
 
-#content p a {}
+#content p a {
+    color: blue;
+}
 
-#content p span {}
+#content p span {
+    color: red;
+}
 
 #productHome {}
 
-.productHome__title {}
+.productHome__title {
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
 
-.productHomeTitle__heading {}
+.productHomeTitle__heading {
+    width: 23%;
+    background-image: url('../image/hinh_thang.jpg');
+}
 
-.productHomeTitle__heading h2 {}
+.productHomeTitle__heading h2 {
+    padding-left: 20px;
+    color: white;
+    font-size: 16px;
+}
 
-.productHomeTitle__link {}
+.productHomeTitle__link {
+    
+    margin-left: 70%;
+}
 
-.productHomeTitle__link a {}
+.productHomeTitle__link a {
+    color: white;
+}
 
-.productHome__list {}
+.productHome__list {
+    gap: 20px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
 .products {}
 
-.productImage {}
+.products h3 {
+    margin: auto;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 85%;
+    padding-right: 30px;
+    
+}
+
+.productImage {
+    padding-left: 10px;
+    
+}
+
+.productImage img {
+   
+    width: 100%;
+    vertical-align: middle;
+}
